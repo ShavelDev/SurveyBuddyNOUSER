@@ -8,17 +8,48 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView{
+            VStack(spacing: 30){
+                
+                //App Logo
+                Image(systemName: "hands")
+                
+                
+                NavigationLink(destination: EmptyView()){
+                    HStack{
+                        Image(systemName: "doc.on.doc")
+                        Text("Created Documents")
+                    }
+                    
+                    
+                }
+                
+                NavigationLink(destination: EmptyView()){
+                    HStack{
+                        Image(systemName: "plus")
+                        Text("NewDocument")
+                    }
+                    
+                }
+                
+                
+                NavigationLink(destination: EmptyView()){
+                    HStack{
+                        Image(systemName: "gear")
+                        Text("Settings")
+                    }
+                }
+                
+                
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
 }
+
