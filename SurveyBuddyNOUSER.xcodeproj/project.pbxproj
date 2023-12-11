@@ -11,9 +11,13 @@
 		AE9B27662B274F0900FF8B38 /* FormProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B27602B274F0800FF8B38 /* FormProtocol.swift */; };
 		AE9B27672B274F0900FF8B38 /* DocFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B27612B274F0800FF8B38 /* DocFile.swift */; };
 		AE9B27682B274F0900FF8B38 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B27622B274F0800FF8B38 /* User.swift */; };
-		AE9B27692B274F0900FF8B38 /* multipleChoiceForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B27632B274F0900FF8B38 /* multipleChoiceForm.swift */; };
-		AE9B276A2B274F0900FF8B38 /* stringQuestionForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B27642B274F0900FF8B38 /* stringQuestionForm.swift */; };
-		AE9B276B2B274F0900FF8B38 /* singleChoiceForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B27652B274F0900FF8B38 /* singleChoiceForm.swift */; };
+		AE9B27692B274F0900FF8B38 /* MultipleChoiceForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B27632B274F0900FF8B38 /* MultipleChoiceForm.swift */; };
+		AE9B276A2B274F0900FF8B38 /* StringQuestionForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B27642B274F0900FF8B38 /* StringQuestionForm.swift */; };
+		AE9B276B2B274F0900FF8B38 /* SingleChoiceForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B27652B274F0900FF8B38 /* SingleChoiceForm.swift */; };
+		AEA78BF82B27730E006D2FC4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AEA78BF72B27730E006D2FC4 /* FirebaseFirestore */; };
+		AEA78BFA2B27730E006D2FC4 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = AEA78BF92B27730E006D2FC4 /* FirebaseFirestoreCombine-Community */; };
+		AEA78BFC2B27730E006D2FC4 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AEA78BFB2B27730E006D2FC4 /* FirebaseFirestoreSwift */; };
+		AEA78C162B27766B006D2FC4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEA78C152B27766B006D2FC4 /* GoogleService-Info.plist */; };
 		AED38DE42B27499B00222366 /* SurveyBuddyNOUSERApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED38DE32B27499B00222366 /* SurveyBuddyNOUSERApp.swift */; };
 		AED38DE82B27499C00222366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED38DE72B27499C00222366 /* Assets.xcassets */; };
 		AED38DEB2B27499C00222366 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED38DEA2B27499C00222366 /* Preview Assets.xcassets */; };
@@ -24,9 +28,10 @@
 		AE9B27602B274F0800FF8B38 /* FormProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormProtocol.swift; sourceTree = "<group>"; };
 		AE9B27612B274F0800FF8B38 /* DocFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocFile.swift; sourceTree = "<group>"; };
 		AE9B27622B274F0800FF8B38 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		AE9B27632B274F0900FF8B38 /* multipleChoiceForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = multipleChoiceForm.swift; sourceTree = "<group>"; };
-		AE9B27642B274F0900FF8B38 /* stringQuestionForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stringQuestionForm.swift; sourceTree = "<group>"; };
-		AE9B27652B274F0900FF8B38 /* singleChoiceForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = singleChoiceForm.swift; sourceTree = "<group>"; };
+		AE9B27632B274F0900FF8B38 /* MultipleChoiceForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleChoiceForm.swift; sourceTree = "<group>"; };
+		AE9B27642B274F0900FF8B38 /* StringQuestionForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringQuestionForm.swift; sourceTree = "<group>"; };
+		AE9B27652B274F0900FF8B38 /* SingleChoiceForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleChoiceForm.swift; sourceTree = "<group>"; };
+		AEA78C152B27766B006D2FC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AED38DE02B27499B00222366 /* SurveyBuddyNOUSER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurveyBuddyNOUSER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED38DE32B27499B00222366 /* SurveyBuddyNOUSERApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyBuddyNOUSERApp.swift; sourceTree = "<group>"; };
 		AED38DE72B27499C00222366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +43,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA78BF82B27730E006D2FC4 /* FirebaseFirestore in Frameworks */,
+				AEA78BFC2B27730E006D2FC4 /* FirebaseFirestoreSwift in Frameworks */,
+				AEA78BFA2B27730E006D2FC4 /* FirebaseFirestoreCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,9 +57,9 @@
 			children = (
 				AE9B27612B274F0800FF8B38 /* DocFile.swift */,
 				AE9B27602B274F0800FF8B38 /* FormProtocol.swift */,
-				AE9B27632B274F0900FF8B38 /* multipleChoiceForm.swift */,
-				AE9B27652B274F0900FF8B38 /* singleChoiceForm.swift */,
-				AE9B27642B274F0900FF8B38 /* stringQuestionForm.swift */,
+				AE9B27632B274F0900FF8B38 /* MultipleChoiceForm.swift */,
+				AE9B27652B274F0900FF8B38 /* SingleChoiceForm.swift */,
+				AE9B27642B274F0900FF8B38 /* StringQuestionForm.swift */,
 				AE9B27622B274F0800FF8B38 /* User.swift */,
 			);
 			path = Model;
@@ -76,6 +84,7 @@
 		AED38DE22B27499B00222366 /* SurveyBuddyNOUSER */ = {
 			isa = PBXGroup;
 			children = (
+				AEA78C152B27766B006D2FC4 /* GoogleService-Info.plist */,
 				AE9B275F2B274EEF00FF8B38 /* Model */,
 				AED38DE32B27499B00222366 /* SurveyBuddyNOUSERApp.swift */,
 				AE9B275B2B274E0A00FF8B38 /* ContentView.swift */,
@@ -109,6 +118,11 @@
 			dependencies = (
 			);
 			name = SurveyBuddyNOUSER;
+			packageProductDependencies = (
+				AEA78BF72B27730E006D2FC4 /* FirebaseFirestore */,
+				AEA78BF92B27730E006D2FC4 /* FirebaseFirestoreCombine-Community */,
+				AEA78BFB2B27730E006D2FC4 /* FirebaseFirestoreSwift */,
+			);
 			productName = SurveyBuddyNOUSER;
 			productReference = AED38DE02B27499B00222366 /* SurveyBuddyNOUSER.app */;
 			productType = "com.apple.product-type.application";
@@ -137,6 +151,9 @@
 				Base,
 			);
 			mainGroup = AED38DD72B27499B00222366;
+			packageReferences = (
+				AEA78BDE2B27730E006D2FC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = AED38DE12B27499B00222366 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -152,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AED38DEB2B27499C00222366 /* Preview Assets.xcassets in Resources */,
+				AEA78C162B27766B006D2FC4 /* GoogleService-Info.plist in Resources */,
 				AED38DE82B27499C00222366 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,10 +183,10 @@
 			files = (
 				AED38DE42B27499B00222366 /* SurveyBuddyNOUSERApp.swift in Sources */,
 				AE9B275C2B274E0A00FF8B38 /* ContentView.swift in Sources */,
-				AE9B276B2B274F0900FF8B38 /* singleChoiceForm.swift in Sources */,
-				AE9B27692B274F0900FF8B38 /* multipleChoiceForm.swift in Sources */,
+				AE9B276B2B274F0900FF8B38 /* SingleChoiceForm.swift in Sources */,
+				AE9B27692B274F0900FF8B38 /* MultipleChoiceForm.swift in Sources */,
 				AE9B27672B274F0900FF8B38 /* DocFile.swift in Sources */,
-				AE9B276A2B274F0900FF8B38 /* stringQuestionForm.swift in Sources */,
+				AE9B276A2B274F0900FF8B38 /* StringQuestionForm.swift in Sources */,
 				AE9B27682B274F0900FF8B38 /* User.swift in Sources */,
 				AE9B27662B274F0900FF8B38 /* FormProtocol.swift in Sources */,
 			);
@@ -376,6 +394,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AEA78BDE2B27730E006D2FC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AEA78BF72B27730E006D2FC4 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEA78BDE2B27730E006D2FC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		AEA78BF92B27730E006D2FC4 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEA78BDE2B27730E006D2FC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		AEA78BFB2B27730E006D2FC4 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEA78BDE2B27730E006D2FC4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AED38DD82B27499B00222366 /* Project object */;
 }

@@ -1,5 +1,5 @@
 //
-//  stringQuestionForm.swift
+//  singleChoiceStruct.swift
 //  SurveyBuddyNOUSER
 //
 //  Created by Norbert Szawloga on 11/12/2023.
@@ -7,11 +7,9 @@
 
 import Foundation
 
-import Foundation
-
-struct stringQuestionForm: FormProtocol{
+struct SingleChoiceForm: FormProtocol{
     
-    let formType = "STRINGQUESTION"
+    let formType = "SINGLECHOICE"
     
     var question: String
     
