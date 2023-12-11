@@ -15,7 +15,7 @@ struct ContentView: View {
             VStack(spacing: 30){
                 
                 //App Logo
-                Image(systemName: "hands")
+                Image(systemName: "hands.sparkles.fill")
                 
                 
                 NavigationLink(destination: EmptyView()){
